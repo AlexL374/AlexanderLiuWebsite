@@ -1,0 +1,36 @@
+.name-animation {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: Inter;
+    display: flex;
+    text-align: center;
+}
+
+.name-animation > p {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.letter {
+    padding: 0px 5px;
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+}
+
+.letter.show {
+    opacity: 1;
+    visibility: visible;
+    transition: .7s;
+    margin-top: 20vh;
+}
+
+.indent-first-last {
+    margin-right: 5vh !important;
+}
+
+body {
+    margin: 0px;
+}
