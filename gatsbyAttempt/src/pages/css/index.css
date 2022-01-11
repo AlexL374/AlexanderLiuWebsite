@@ -1,30 +1,34 @@
-.name-animation {
+.outer-container {
     background-color: black;
-    height: 100vh;
-    width: 100vw;
+    background-color: black;
+    height: 300vh;
+    width: 100%;
+}
+
+.name-animation-container {
     color: white;
     font-family: Inter;
-    display: flex;
     text-align: center;
 }
 
-.name-animation > p {
+.name-animation-container > p {
     font-size: 50px;
     margin: 0px;
+    display: inline-flex;
 }
 
 .letter {
-    padding: 0px 5px;
+    padding: 0px 3px;
+    transform: none;
     opacity: 0;
     visibility: hidden;
-    top: 0px;
 }
 
 .letter.show {
+    transition: .5s;
+    transform: translateY(20vh);
     opacity: 1;
     visibility: visible;
-    transition: .7s;
-    margin-top: 20vh;
 }
 
 .indent-first-last {
@@ -33,4 +37,18 @@
 
 body {
     margin: 0px;
+}
+
+.timeline-container {
+    color: white;
+    transform: translateY(18vh);
+}
+
+.timeline-content {
+    font-family: Inter;
+}
+
+/* make height of the line proportional to the date of the content */
+.timeline-line {
+    height: 10vh;
 }

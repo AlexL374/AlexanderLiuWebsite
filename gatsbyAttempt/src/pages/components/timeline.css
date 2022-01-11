@@ -1,0 +1,17 @@
+.timeline-container {
+    text-align: center;
+}
+
+.content-title {
+    color: white;
+    font-family: Inter;
+    font-size: 100px;
+}
+
+.timeline-connector {
+    background-color: white;
+    width: 10px;
+    height: 10vh;
+    border-radius: 8px;
+    display: inline-flex;
+}

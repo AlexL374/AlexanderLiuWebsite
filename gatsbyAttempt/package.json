@@ -18,6 +18,7 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "gatsby": "^4.4.0",
     "react": "^17.0.1",
+    "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^17.0.1"
   }
 }
